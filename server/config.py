@@ -1,8 +1,8 @@
 from flask import Flask, request, session
-from sqlachemy import MetaData
-from flask_sqlachemy import SQLAlchemy
+from sqlalchemy import MetaData
+from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from flask_restful import Api, Restful
+from flask_restful import Api, Resource
 from sqlalchemy_serializer import SerializerMixin
 
 
